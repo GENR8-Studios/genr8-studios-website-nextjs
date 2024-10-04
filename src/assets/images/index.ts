@@ -52,6 +52,10 @@ import HMTHSClassroom3dImg04 from "./HMTHS/HMTHS_Classroom-3d-04.webp";
 
 // Project - HMTHS - Campus Virtual Tour
 import HMTHSCampus3dFeatImg from "./HMTHS/HMTHS_Virtual_Tour-3D-feat.webp";
+import HMTHSCampus3dImg01 from "./HMTHS/HMTHS_Virtual_Tour-3D-01.webp";
+import HMTHSCampus3dImg02 from "./HMTHS/HMTHS_Virtual_Tour-3D-02.webp";
+import HMTHSCampus3dImg03 from "./HMTHS/HMTHS_Virtual_Tour-3D-03.webp";
+import HMTHSCampus3dImg04 from "./HMTHS/HMTHS_Virtual_Tour-3D-04.webp";
 
 // Project - Necro's Revenge
 import NecroImg01 from "./NecrosRevenge/NR_Cover_Art_1.webp";
@@ -69,6 +73,10 @@ export {
   ElectricRaceCarFeatImg,
   HMTHSAutoCad3dFeatImg,
   HMTHSCampus3dFeatImg,
+  HMTHSCampus3dImg01,
+  HMTHSCampus3dImg02,
+  HMTHSCampus3dImg03,
+  HMTHSCampus3dImg04,
   HMTHSClassroom3dFeatImg,
   HMTHSClassroom3dImg01,
   HMTHSClassroom3dImg02,
