@@ -49,6 +49,10 @@ import {
   OfficeSpaceImg02,
   SolarAprtFeatImg,
   TheVaultFeatImg,
+  TheVaultImg01,
+  TheVaultImg02,
+  TheVaultImg03,
+  TheVaultImg04,
 } from "./images";
 
 export {
@@ -104,5 +108,9 @@ export {
   SolarAprtFeatImg,
   targetIcon,
   TheVaultFeatImg,
+  TheVaultImg01,
+  TheVaultImg02,
+  TheVaultImg03,
+  TheVaultImg04,
   visionIcon,
 };
