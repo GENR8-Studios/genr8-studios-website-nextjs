@@ -30,7 +30,7 @@ const Achievements = () => {
                   {stat.annex}
                 </p>
                 <div className="lg:w-8 border border-theme max-lg:hidden"></div>
-                <p className="text-2xl lg:text-lg text-balance leading-tight">
+                <p className="text-xl lg:text-lg text-balance leading-tight">
                   {stat.entity}
                 </p>
               </div>
