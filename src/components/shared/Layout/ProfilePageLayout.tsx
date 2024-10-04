@@ -82,7 +82,7 @@ const ProjectPageLayout = (props: any) => {
     { key: 2, label: "Format:", value: projectFormat },
     {
       key: 3,
-      label: "Published:",
+      label: "Published Date:",
       value: (
         <>
           <time dateTime={projectPublishedDateFormat}>
