@@ -29,6 +29,10 @@ import ElectricRaceCarImg04 from "./ElectricRaceCar/electric_race_car-3d-04.webp
 
 // Project - The Vault
 import TheVaultFeatImg from "./TheVault/the_vault-3d-feature.webp";
+import TheVaultImg01 from "./TheVault/the_vault-3d-01.webp";
+import TheVaultImg02 from "./TheVault/the_vault-3d-02.webp";
+import TheVaultImg03 from "./TheVault/the_vault-3d-03.webp";
+import TheVaultImg04 from "./TheVault/the_vault-3d-04.webp";
 
 // Project - Office Space
 import OfficeSpaceFeatImg from "./OfficeSpace/office_space-3d-feature.webp";
@@ -125,4 +129,8 @@ export {
   OfficeSpaceImg02,
   SolarAprtFeatImg,
   TheVaultFeatImg,
+  TheVaultImg01,
+  TheVaultImg02,
+  TheVaultImg03,
+  TheVaultImg04,
 };
