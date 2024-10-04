@@ -38,9 +38,17 @@ import HMTHSAutoCad3dFeatImg from "./HMTHS/AutoCAD_Lab-3d-feat.webp";
 
 // Project - HMTHS - STEM Lab
 import HMTHSStemLab3dFeatImg from "./HMTHS/STEM_Lab-3d-feat.webp";
+import HMTHSStemLab3dImg01 from "./HMTHS/STEM_Lab-3d-01.webp";
+import HMTHSStemLab3dImg02 from "./HMTHS/STEM_Lab-3d-02.webp";
+import HMTHSStemLab3dImg03 from "./HMTHS/STEM_Lab-3d-03.webp";
+import HMTHSStemLab3dImg04 from "./HMTHS/STEM_Lab-3d-04.webp";
 
 // Project - HMTHS - Classroom
 import HMTHSClassroom3dFeatImg from "./HMTHS/HMTHS_Classroom-3d-feat.webp";
+import HMTHSClassroom3dImg01 from "./HMTHS/HMTHS_Classroom-3d-01.webp";
+import HMTHSClassroom3dImg02 from "./HMTHS/HMTHS_Classroom-3d-02.webp";
+import HMTHSClassroom3dImg03 from "./HMTHS/HMTHS_Classroom-3d-03.webp";
+import HMTHSClassroom3dImg04 from "./HMTHS/HMTHS_Classroom-3d-04.webp";
 
 // Project - HMTHS - Campus Virtual Tour
 import HMTHSCampus3dFeatImg from "./HMTHS/HMTHS_Virtual_Tour-3D-feat.webp";
@@ -62,7 +70,15 @@ export {
   HMTHSAutoCad3dFeatImg,
   HMTHSCampus3dFeatImg,
   HMTHSClassroom3dFeatImg,
+  HMTHSClassroom3dImg01,
+  HMTHSClassroom3dImg02,
+  HMTHSClassroom3dImg03,
+  HMTHSClassroom3dImg04,
   HMTHSStemLab3dFeatImg,
+  HMTHSStemLab3dImg01,
+  HMTHSStemLab3dImg02,
+  HMTHSStemLab3dImg03,
+  HMTHSStemLab3dImg04,
   Logo,
   LogoAltPortrait,
   LogoBackdrop,
