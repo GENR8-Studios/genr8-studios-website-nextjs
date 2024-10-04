@@ -1,7 +1,10 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { NecroImg01 } from "@/assets";
+import { useMediaQuery } from "@/hooks";
 
 const ProjectCard = (props: any) => {
   const {
@@ -11,36 +14,72 @@ const ProjectCard = (props: any) => {
     cardCTA = "View Project",
     target = "#",
   } = props;
+
+  const belowLargeScreens = useMediaQuery("(max-width: 1024px)");
+
   return (
     <>
-      <div className="relative aspect-video mx-auto border border-theme rounded-xl w-4/5 lg:w-[45%]">
-        <Image
-          alt={imgAlt}
-          src={imgSrc}
-          width={1280}
-          height={720}
-          className="rounded-xl w-full"
-        />
-        <div className="absolute rounded-t-xl top-0 w-full h-full">
-          <div className="flex flex-col justify-between items-center h-full rounded-xl">
-            <span className="bg-black w-full text-center py-4 rounded-t-xl">
-              <p className="text-theme tracking-wide font-semibold text-xl xl:text-3xl">
-                {cardTitle}
-              </p>
-            </span>
-            <span className="w-full flex justify-center rounded-b-xl">
-              <Link
-                href={target}
-                className="group w-full outline-none rounded-b-xl text-center bg-theme px-8 py-4 hover:bg-white focus-visible:bg-white"
-              >
-                <p className="text-white font-medium text-lg xl:text-xl group-hover:text-theme group-focus-visible:text-theme group-active:text-black">
-                  {cardCTA}
+      {!belowLargeScreens ? (
+        <div className="relative aspect-video mx-auto border border-theme rounded-xl max-lg:h-40 w-4/5 lg:w-[45%]">
+          <Image
+            alt={imgAlt}
+            src={imgSrc}
+            width={1280}
+            height={720}
+            className="rounded-xl w-full"
+          />
+          <div className="absolute rounded-t-xl top-0 w-full h-full">
+            <div className="flex flex-col justify-between items-center h-full rounded-xl">
+              <span className="bg-black w-full text-center py-4 rounded-t-xl">
+                <p className="text-theme tracking-wide font-semibold text-xl xl:text-3xl">
+                  {cardTitle}
                 </p>
-              </Link>
-            </span>
+              </span>
+              <span className="w-full flex justify-center rounded-b-xl">
+                <Link
+                  href={target}
+                  className="group w-full outline-none rounded-b-xl text-center bg-theme px-8 py-4 hover:bg-white focus-visible:bg-white"
+                >
+                  <p className="text-white font-medium text-lg xl:text-xl group-hover:text-theme group-focus-visible:text-theme group-active:text-black">
+                    {cardCTA}
+                  </p>
+                </Link>
+              </span>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        <>
+          <div className="relative flex mx-auto border-theme rounded-xl max-lg:h-40 max-lg:mb-8 w-[86%]">
+            <div className="rounded-t-xl w-full h-full">
+              <div className="flex flex-col items-center h-full rounded-xl">
+                <span className="bg-black border border-theme w-full text-center py-4 rounded-t-xl">
+                  <p className="text-theme tracking-wide font-semibold text-xl xl:text-3xl">
+                    {cardTitle}
+                  </p>
+                </span>
+                <Image
+                  alt={imgAlt}
+                  src={imgSrc}
+                  width={1280}
+                  height={720}
+                  className="w-full border border-theme"
+                />
+                <span className="w-full flex justify-center rounded-b-xl">
+                  <Link
+                    href={target}
+                    className="group w-full outline-none rounded-b-xl text-center bg-theme px-8 py-4 hover:bg-white focus-visible:bg-white"
+                  >
+                    <p className="text-white font-medium text-lg xl:text-xl group-hover:text-theme group-focus-visible:text-theme group-active:text-black">
+                      {cardCTA}
+                    </p>
+                  </Link>
+                </span>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
     </>
   );
 };
