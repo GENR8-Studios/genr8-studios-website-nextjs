@@ -12,6 +12,10 @@ import DrivenAdImg04 from "./Driven/driven-ad-04.webp";
 
 // Project - Mountain Dew
 import MountainDewAdFeatImg from "./MountainDew/mountain_dew-ad-feature.webp";
+import MountainDewAdImg01 from "./MountainDew/mountain_dew-ad-01.webp";
+import MountainDewAdImg02 from "./MountainDew/mountain_dew-ad-02.webp";
+import MountainDewAdImg03 from "./MountainDew/mountain_dew-ad-03.webp";
+import MountainDewAdImg04 from "./MountainDew/mountain_dew-ad-04.webp";
 
 // Project - Solar Apartment Complex
 import SolarAprtFeatImg from "./SolarAprt/solar_aprt-3d-feature.webp";
@@ -108,6 +112,10 @@ export {
   LogoBackdrop,
   MoondripFeatImg,
   MountainDewAdFeatImg,
+  MountainDewAdImg01,
+  MountainDewAdImg02,
+  MountainDewAdImg03,
+  MountainDewAdImg04,
   NecroImg01,
   NecroImg02,
   NecroImg03,
