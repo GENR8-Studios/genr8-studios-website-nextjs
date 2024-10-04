@@ -35,6 +35,10 @@ import MoondripFeatImg from "./Moondrip/moondrip-feature.webp";
 
 // Project - HMTHS - AutoCAD Lab
 import HMTHSAutoCad3dFeatImg from "./HMTHS/AutoCAD_Lab-3d-feat.webp";
+import HMTHSAutoCad3dImg01 from "./HMTHS/AutoCAD_Lab-3d-01.webp";
+import HMTHSAutoCad3dImg02 from "./HMTHS/AutoCAD_Lab-3d-02.webp";
+import HMTHSAutoCad3dImg03 from "./HMTHS/AutoCAD_Lab-3d-03.webp";
+import HMTHSAutoCad3dImg04 from "./HMTHS/AutoCAD_Lab-3d-04.webp";
 
 // Project - HMTHS - STEM Lab
 import HMTHSStemLab3dFeatImg from "./HMTHS/STEM_Lab-3d-feat.webp";
@@ -72,6 +76,10 @@ export {
   DrivenAdImg04,
   ElectricRaceCarFeatImg,
   HMTHSAutoCad3dFeatImg,
+  HMTHSAutoCad3dImg01,
+  HMTHSAutoCad3dImg02,
+  HMTHSAutoCad3dImg03,
+  HMTHSAutoCad3dImg04,
   HMTHSCampus3dFeatImg,
   HMTHSCampus3dImg01,
   HMTHSCampus3dImg02,
