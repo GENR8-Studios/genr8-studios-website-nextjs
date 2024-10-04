@@ -18,6 +18,10 @@ import SolarAprtFeatImg from "./SolarAprt/solar_aprt-3d-feature.webp";
 
 // Project - Electric Race Car
 import ElectricRaceCarFeatImg from "./ElectricRaceCar/electric_race_car-3d-feature.webp";
+import ElectricRaceCarImg01 from "./ElectricRaceCar/electric_race_car-3d-01.webp";
+import ElectricRaceCarImg02 from "./ElectricRaceCar/electric_race_car-3d-02.webp";
+import ElectricRaceCarImg03 from "./ElectricRaceCar/electric_race_car-3d-03.webp";
+import ElectricRaceCarImg04 from "./ElectricRaceCar/electric_race_car-3d-04.webp";
 
 // Project - The Vault
 import TheVaultFeatImg from "./TheVault/the_vault-3d-feature.webp";
@@ -75,6 +79,10 @@ export {
   DrivenAdImg03,
   DrivenAdImg04,
   ElectricRaceCarFeatImg,
+  ElectricRaceCarImg01,
+  ElectricRaceCarImg02,
+  ElectricRaceCarImg03,
+  ElectricRaceCarImg04,
   HMTHSAutoCad3dFeatImg,
   HMTHSAutoCad3dImg01,
   HMTHSAutoCad3dImg02,
