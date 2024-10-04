@@ -27,7 +27,7 @@ const GameCard = (props: any) => {
       </div>
       <div className="lg:aspect-video flex flex-col lg:justify-between gap-y-2 lg:gap-y-4 py-2 w-full h-full">
         <div className="flex flex-col gap-y-2 xl:gap-y-4 max-lg:items-center">
-          <h2 className="font-bold text-2xl lg:text-3xl xl:text-5xl">
+          <h2 className="font-bold text-2xl lg:text-3xl xl:text-4xl">
             {title}
           </h2>
           <p className="text-xl xl:text-2xl w-4/5 max-lg:hidden">{summary}</p>

@@ -3,7 +3,7 @@ import { contactInfo, contactMarkup } from "@/constants";
 
 const contactDetails = contactInfo.map((contact) => (
   <li key={contact.id}>
-    <span className="flex items-center text-center gap-x-1 lg:gap-x-4 text-xs lg:text-base xl:text-xl uppercase">
+    <span className="flex items-center text-center gap-x-1 lg:gap-x-4 text-xs lg:text-base xl:text-lg uppercase">
       <p className="font-bold">{contact.title}</p>
       <p className="pl-0">:</p>
       <Link

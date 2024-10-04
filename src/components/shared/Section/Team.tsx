@@ -34,7 +34,7 @@ const Team = () => {
                           {team.role}
                         </p>
                       </span>
-                      <p className="uppercase font-bold text-2xl lg:text-[1.5rem] xl:text-[2.625rem] w-full pl-2 xl:pl-1">
+                      <p className="uppercase font-bold text-2xl lg:text-[1.5rem] xl:text-[2.5rem] w-full pl-2 xl:pl-1">
                         {team.name}
                       </p>
                     </div>
