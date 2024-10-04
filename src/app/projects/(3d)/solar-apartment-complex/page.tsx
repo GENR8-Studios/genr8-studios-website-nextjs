@@ -1,6 +1,12 @@
 import React from "react";
+import { Metadata } from "next";
 import { Footer, NavBar, ProjectPageLayout } from "@/components";
 import { projects } from "@/constants";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Solar Apartment Complex - Project Details",
+};
 
 const info = projects
   .filter((tag) => tag.title === "Solar Apartment Complex")

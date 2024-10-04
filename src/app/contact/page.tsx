@@ -1,4 +1,5 @@
 import React from "react";
+import { Metadata } from "next";
 import {
   ContactDetailsBlock,
   ContactForm,
@@ -6,6 +7,11 @@ import {
   Footer,
   NavBar,
 } from "@/components";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Contact Us",
+};
 
 export default function Contact() {
   return (

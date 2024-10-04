@@ -11,13 +11,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "GENR8 Studios - Animation & Game Development",
+    default: "GENR8 Studios | Animation & Game Development",
     template: "%s | GENR8 Studios",
   },
   description:
     "GENR8 Studios is a cutting-edge game development and animation company dedicated to creating immersive and innovative experiences that captivate people around the world.",
   keywords:
-    "GENR8, Video Game, Game Development, 3D, Animation, UI Design, Rendering, Digital, Advertisement, Architectural, Visualization, Virtual, Renders, Graphics, Media",
+    "GENR8, Video Game, Game Development, 3D Render, Animation, UI Design, Rendering, Digital, Advertisement, Architectural, Visualization, Virtual, Renders, Graphics, Media",
   authors: [
     { name: "Khamisi Lawrence", url: "https://github.com/khamisilawrence" },
   ],
