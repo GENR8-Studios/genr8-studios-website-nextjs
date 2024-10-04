@@ -16,11 +16,11 @@ const info = projects
       projectPublishedDate={project.date.published}
       projectPublishedDateFormat={project.date.publishedFormat}
       projectFeatImg={project.images.feature}
-      projectAddImg01={project.images.feature}
-      projectAddImg02={project.images.feature}
-      projectAddImg03={project.images.feature}
-      projectAddImg04={project.images.feature}
-      projectAddImg05={project.images.feature}
+      projectAddImg01={project.images.annexFour}
+      projectAddImg02={project.images.annexTwo}
+      projectAddImg03={project.images.annexThree}
+      projectAddImg04={project.images.annexOne}
+      projectAddImg05={project.images.annexThree}
       projectVideoURL={project.url.video}
     />
   ));

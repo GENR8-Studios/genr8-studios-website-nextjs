@@ -16,10 +16,10 @@ const info = projects
       projectPublishedDate={project.date.published}
       projectPublishedDateFormat={project.date.publishedFormat}
       projectFeatImg={project.images.feature}
-      projectAddImg01={project.images.feature}
-      projectAddImg02={project.images.feature}
-      projectAddImg03={project.images.feature}
-      projectAddImg04={project.images.feature}
+      projectAddImg01={project.images.annexTwo}
+      projectAddImg02={project.images.annexOne}
+      projectAddImg03={project.images.annexThree}
+      projectAddImg04={project.images.annexFour}
       projectAddImg05={project.images.feature}
       projectVideoURL={project.url.video}
     />
