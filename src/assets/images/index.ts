@@ -10,6 +10,13 @@ import DrivenAdImg02 from "./Driven/driven-ad-02.webp";
 import DrivenAdImg03 from "./Driven/driven-ad-03.webp";
 import DrivenAdImg04 from "./Driven/driven-ad-04.webp";
 
+// Project - Greenwood Plaza
+import GwpFeatImg from "./GreenwoodPlaza/gwp-feature.webp";
+import GwpImg01 from "./GreenwoodPlaza/gwp-01.webp";
+import GwpImg02 from "./GreenwoodPlaza/gwp-02.webp";
+import GwpImg03 from "./GreenwoodPlaza/gwp-03.webp";
+import GwpImg04 from "./GreenwoodPlaza/gwp-04.webp";
+
 // Project - Mountain Dew
 import MountainDewAdFeatImg from "./MountainDew/mountain_dew-ad-feature.webp";
 import MountainDewAdImg01 from "./MountainDew/mountain_dew-ad-01.webp";
@@ -91,6 +98,11 @@ export {
   ElectricRaceCarImg02,
   ElectricRaceCarImg03,
   ElectricRaceCarImg04,
+  GwpFeatImg,
+  GwpImg01,
+  GwpImg02,
+  GwpImg03,
+  GwpImg04,
   HMTHSAutoCad3dFeatImg,
   HMTHSAutoCad3dImg01,
   HMTHSAutoCad3dImg02,
