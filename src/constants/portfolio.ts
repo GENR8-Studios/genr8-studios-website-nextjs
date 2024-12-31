@@ -264,7 +264,7 @@ export const projects = [
     id: 8,
     title: `Greenwood Plaza`,
     summary: `A 3D architectural visualization rendering of a shopping plaza.`,
-    description: `We produced an architectural visualization rendering of a shopping plaza. The render highlights the aesthetically pleasing integration of solar panels, contributing to the overall beauty of the design.`,
+    description: `We produced an architectural visualization rendering of a shopping plaza. The render highlights the aesthetically pleasing integration of the plaza's brand colors, contributing to the overall beauty of the design.`,
     category: `3D Render`,
     subcategory: `Architectural Visualization`,
     blurb: ``,
