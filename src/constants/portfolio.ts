@@ -285,9 +285,8 @@ export const projects = [
       annexFive: GwpFeatImg,
     },
     url: {
-      video: ``,
+      video: `https://www.youtube.com/embed/pEtUmi_EaFA?&mute=1`,
       internal: `/projects/greenwood-plaza`,
-      external: ``,
     },
   },
   {
