@@ -27,6 +27,7 @@ const info = projects
       projectAddImg03={project.images.annexThree}
       projectAddImg04={project.images.annexFour}
       projectAddImg05={project.images.annexFive}
+      projectVideoURL={project.url.video}
     />
   ));
 

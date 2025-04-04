@@ -113,6 +113,7 @@ export const projects = [
       annexFive: SolarAprtFeatImg,
     },
     url: {
+      video: `https://www.youtube.com/embed/0UDNzWG9Dzg?&mute=1`,
       internal: `/projects/solar-apartment-complex`,
     },
   },
@@ -402,7 +403,7 @@ export const projects = [
       annexFive: HMTHSCampus3dFeatImg,
     },
     url: {
-      video: ``,
+      video: `https://www.youtube.com/embed/-t--gNDjYls?mute=1`,
       internal: `/projects/campus-virtual-tour`,
     },
   },
