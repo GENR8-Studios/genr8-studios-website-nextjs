@@ -15,7 +15,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.53.0",
-    "sharp": "^0.33.5"
+    "sharp": "^0.35.5"
   },
   "devDependencies": {
     "@hookform/devtools": "^4.3.1",
