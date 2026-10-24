@@ -18,6 +18,8 @@ const GameCard = (props: any) => {
     <div className="flex max-lg:flex-col rounded-xl lg:gap-x-8 w-3/5 bg-stone-500 p-2 lg:p-4 mx-auto">
       <div className="relative aspect-video rounded-xl lg:w-full">
         <Image
+          quality={90}
+          sizes="(max-width: 1024px) 60vw, 30vw"
           alt={imgAlt}
           src={imgSrc}
           width={1280}

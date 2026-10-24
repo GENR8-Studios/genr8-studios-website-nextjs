@@ -1,5 +1,7 @@
 # Driven and Mountain Dew image edits
 
+See [the later production image refresh](image-quality-refresh.md) for the current image paths, new artwork and responsive exports. The paths below record the earlier generation pass in the static repository.
+
 The user requested actual image modifications to address blur, especially in Driven and Mountain Dew. The built-in image generation/editing tool produced these versions from repository originals. Original project artwork and the previous thumbnails remain untouched. These are AI-enhanced interpretations: fine texture and edge detail are reconstructed, not recovered original render data.
 
 ## Saved assets

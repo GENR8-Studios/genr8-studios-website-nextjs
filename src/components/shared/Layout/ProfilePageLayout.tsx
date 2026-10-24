@@ -117,6 +117,8 @@ const ProjectPageLayout = (props: any) => {
       {additionalImages.map((img) => (
         <div key={img.key} className="w-full lg:w-[30%]">
           <Image
+            quality={90}
+            sizes="(max-width: 1024px) 88vw, 24vw"
             alt={`${projectTitle} Image 0${img.key}`}
             src={img.src}
             width={1280}
@@ -149,6 +151,8 @@ const ProjectPageLayout = (props: any) => {
               <p className="lg:w-3/5 text-base xl:text-xl">{projectSummary}</p>
               <div className="w-full lg:w-[30%]">
                 <Image
+                  quality={90}
+                  sizes="(max-width: 1024px) 88vw, 24vw"
                   alt={`${projectTitle} Feature Image`}
                   src={projectAddImg05}
                   width={1280}
@@ -164,6 +168,8 @@ const ProjectPageLayout = (props: any) => {
             <div className="lg:w-1/2 text-base xl:text-xl">{metadata}</div>
             <div className="w-full lg:w-[30%]">
               <Image
+                quality={90}
+                sizes="(max-width: 1024px) 88vw, 24vw"
                 alt={`${projectTitle} Additional Image`}
                 src={projectAddImg01}
                 width={1280}

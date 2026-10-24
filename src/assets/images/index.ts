@@ -4,7 +4,7 @@ import LogoAltPortrait from "./Logo/logo_alt--portrait.webp";
 import LogoBackdrop from "./Logo/logo-with-black-backdrop.webp";
 
 // Project - Driven
-import DrivenAdFeatImg from "./Driven/driven-ad-feature.webp";
+import DrivenAdFeatImg from "./Driven/driven-ad-feature-v2.webp";
 import DrivenAdImg01 from "./Driven/driven-ad-01.webp";
 import DrivenAdImg02 from "./Driven/driven-ad-02.webp";
 import DrivenAdImg03 from "./Driven/driven-ad-03.webp";
@@ -18,14 +18,14 @@ import GwpImg03 from "./GreenwoodPlaza/gwp-03.webp";
 import GwpImg04 from "./GreenwoodPlaza/gwp-04.webp";
 
 // Project - Mountain Dew
-import MountainDewAdFeatImg from "./MountainDew/mountain_dew-ad-feature.webp";
+import MountainDewAdFeatImg from "./MountainDew/mountain_dew-ad-feature-v2.webp";
 import MountainDewAdImg01 from "./MountainDew/mountain_dew-ad-01.webp";
 import MountainDewAdImg02 from "./MountainDew/mountain_dew-ad-02.webp";
 import MountainDewAdImg03 from "./MountainDew/mountain_dew-ad-03.webp";
 import MountainDewAdImg04 from "./MountainDew/mountain_dew-ad-04.webp";
 
 // Project - Solar Apartment Complex
-import SolarAprtFeatImg from "./SolarAprt/solar_aprt-3d-feature.webp";
+import SolarAprtFeatImg from "./SolarAprt/solar_aprt-3d-feature-v2.webp";
 
 // Project - Electric Race Car
 import ElectricRaceCarFeatImg from "./ElectricRaceCar/electric_race_car-3d-feature.webp";
@@ -42,7 +42,7 @@ import TheVaultImg03 from "./TheVault/the_vault-3d-03.webp";
 import TheVaultImg04 from "./TheVault/the_vault-3d-04.webp";
 
 // Project - Office Space
-import OfficeSpaceFeatImg from "./OfficeSpace/office_space-3d-feature.webp";
+import OfficeSpaceFeatImg from "./OfficeSpace/office_space-3d-feature-v2.webp";
 import OfficeSpaceImg01 from "./OfficeSpace/office_space-3d-01.webp";
 import OfficeSpaceImg02 from "./OfficeSpace/office_space-3d-02.webp";
 
@@ -82,7 +82,7 @@ import HMTHSCampus3dImg04 from "./HMTHS/HMTHS_Virtual_Tour-3D-04.webp";
 
 // Project - Necro's Revenge
 import NecroImg01 from "./NecrosRevenge/NR_Cover_Art_1.webp";
-import NecroImg02 from "./NecrosRevenge/NR_Cover_Art_2.webp";
+import NecroImg02 from "./NecrosRevenge/necros-revenge-hero-v2.webp";
 import NecroImg03 from "./NecrosRevenge/NR_Cover_Art_3.webp";
 import NecroImg04 from "./NecrosRevenge/NR_Promo_Art.webp";
 

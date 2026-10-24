@@ -31,7 +31,7 @@ Object.assign(mountain, { image: "/portfolio/mountain-dew-enhanced.png", width: 
 const artwork = (id: string, title: string, category: string, label: string, width: number, height: number, portrait = false): PortfolioItem => ({
   id, title, category, label, width, height, portrait, image: `/portfolio/${id}.webp`, href: `/portfolio/${id}.webp`, artwork: true,
 });
-const items: PortfolioItem[] = [
+const orderedItems: PortfolioItem[] = [
   projectItems.find(item => item.id === "2")!, driven, mountain,
   artwork("moondrip", "Moondrip", "product", "Product Mockups", 488, 610, true),
   projectItems.find(item => item.id === "7")!,
@@ -40,6 +40,37 @@ const items: PortfolioItem[] = [
   artwork("rotten-egg", "Rotten Egg", "ui", "UI Designs", 1400, 1019),
   ...projectItems.filter(item => !["2", "5", "6", "7"].includes(item.id)),
 ];
+
+
+// Preserve production composition; change only the artwork and its delivery.
+const nativePreviews: Record<string, { name: string; width: number; height: number; portrait?: boolean }> = {
+  "2": { name: "solar-apartment", width: 1920, height: 1080 },
+  "5": { name: "driven", width: 1672, height: 941 },
+  "6": { name: "mountain-dew", width: 1122, height: 1402, portrait: true },
+  moondrip: { name: "moondrip", width: 1122, height: 1402, portrait: true },
+  "7": { name: "office-space", width: 1920, height: 1080 },
+  "cookie-quest": { name: "cookie-quest", width: 1775, height: 1000 },
+  "fruity-smoothies": { name: "fruity-smoothies", width: 2250, height: 2812, portrait: true },
+  "rotten-egg": { name: "rotten-egg", width: 2000, height: 1455 },
+};
+const items: PortfolioItem[] = orderedItems.map(item => {
+  const preview = nativePreviews[item.id];
+  if (!preview) return item;
+  const { name, width, height, portrait = false } = preview;
+  const image = `/portfolio/${name}-v2.webp`;
+  const widths = [640, 960, 1400].filter(size => size < width);
+  // Filtering may move an item to the wider column. Account for object-fit's
+  // crop when choosing enough source pixels for either column.
+  const crop = Math.max(1, width / height / (portrait ? 4 / 5 : 4 / 3));
+  const column = 5 / 9;
+  const calc = (offset: number) => `calc(${(100 * column * crop).toFixed(4)}vw - ${(offset * column * crop).toFixed(4)}px)`;
+  return {
+    ...item, image, width, height, portrait,
+    srcSet: [...widths.map(size => `/portfolio/${name}-v2-${size}.webp ${size}w`), `${image} ${width}w`].join(", "),
+    sizes: `(max-width: 700px) calc(${(100 * crop).toFixed(4)}vw - ${(40 * crop).toFixed(4)}px), (max-width: 1050px) ${calc(92)}, (max-width: 1552px) ${calc(140)}, ${Math.ceil(1412 * column * crop)}px`,
+    href: item.artwork ? image : item.href,
+  };
+});
 
 function Brand() { return <a className="brand" href="/" aria-label="GENR8 Studios home"><img src="/portfolio/logo.png" width="160" height="60" alt="GENR8 Studios" /></a>; }
 
