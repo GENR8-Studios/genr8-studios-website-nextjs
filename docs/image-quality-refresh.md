@@ -30,7 +30,7 @@ The first eight gallery items now have high-quality WebP exports at their native
 
 The exports were generated with ImageMagick at WebP quality 94 from the original project files and the generated PNG masters. Driven and Mountain Dew reuse their previously reconstructed masters. Solar, Office Space, Cookie Quest, Fruity Smoothies and Rotten Egg exports use the higher-detail originals from the older repository; these exported files are self-contained in this repository and do not require that checkout at runtime.
 
-Shared project cards, game cards and project detail images use Next.js image quality 90 and responsive `sizes`, reducing further compression of the source artwork. This cannot restore missing source detail. Office Space includes intentional depth of field, and several campus virtual tour originals are only about 940 pixels wide. Those rendering/source limitations remain. Moondrip and the generated hero should still be reviewed as reconstructed artwork, particularly fine print and anatomy.
+Shared project cards, game cards and project detail images use Next.js image quality 90 and responsive `sizes`, reducing further compression of the source artwork. This cannot restore missing source detail. Office Space includes intentional depth of field, and several campus virtual tour originals are only about 940 pixels wide. Those rendering/source limitations remain. Moondrip and the generated hero should still be reviewed as reconstructed artwork, particularly fine print and anatomy. The approved Moondrip reconstruction has a minor flavor-label artifact: the pink can appears to read “CELLESTIA BERRY” rather than “CELESTIAL BERRY.”
 
 ## Validation
 
