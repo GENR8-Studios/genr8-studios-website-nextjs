@@ -75,7 +75,7 @@ export const projects = [
       publishedFormat: ``,
     },
     images: {
-      feature: NecroImg01,
+      feature: NecroImg02,
       annexOne: NecroImg02,
       annexTwo: NecroImg01,
       annexThree: NecroImg04,

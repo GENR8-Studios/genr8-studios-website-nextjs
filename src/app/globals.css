@@ -86,8 +86,9 @@ body {
 }
 
 .home-header {
+  background-position: 74% center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/images/NecrosRevenge/NR_Cover_Art_2.webp");
+    url("../assets/images/NecrosRevenge/necros-revenge-hero-v2.webp");
 }
 
 .bg-team-member {
@@ -95,7 +96,7 @@ body {
 }
 
 .bg-driven {
-  background-image: url("../assets/images/Driven/driven-ad-feature.webp");
+  background-image: url("../assets/images/Driven/driven-ad-feature-v2.webp");
 }
 
 .bg-electric-racecar {
@@ -119,15 +120,16 @@ body {
 }
 
 .bg-mountain-dew {
-  background-image: url("../assets/images/MountainDew/mountain_dew-ad-feature.webp");
+  background-image: url("../assets/images/MountainDew/mountain_dew-ad-feature-v2.webp");
 }
 
 .bg-necros-revenge {
-  background-image: url("../assets/images/NecrosRevenge/NR_Cover_Art_2.webp");
+  background-position: 74% center;
+  background-image: url("../assets/images/NecrosRevenge/necros-revenge-hero-v2.webp");
 }
 
 .bg-office-space {
-  background-image: url("../assets/images/OfficeSpace/office_space-3d-feature.webp");
+  background-image: url("../assets/images/OfficeSpace/office_space-3d-feature-v2.webp");
 }
 
 .bg-placeholder {
@@ -135,7 +137,7 @@ body {
 }
 
 .bg-solar-aprt {
-  background-image: url("../assets/images/SolarAprt/solar_aprt-3d-feature.webp");
+  background-image: url("../assets/images/SolarAprt/solar_aprt-3d-feature-v2.webp");
 }
 
 .bg-the-vault {

@@ -22,6 +22,8 @@ const ProjectCard = (props: any) => {
       {!belowLargeScreens ? (
         <div className="relative aspect-video mx-auto border border-theme rounded-xl max-lg:h-40 w-4/5 lg:w-[45%]">
           <Image
+            quality={90}
+            sizes="(max-width: 1024px) 86vw, 45vw"
             alt={imgAlt}
             src={imgSrc}
             width={1280}
@@ -59,6 +61,8 @@ const ProjectCard = (props: any) => {
                   </p>
                 </span>
                 <Image
+                  quality={90}
+                  sizes="(max-width: 1024px) 86vw, 45vw"
                   alt={imgAlt}
                   src={imgSrc}
                   width={1280}
